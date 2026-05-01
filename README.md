@@ -1,5 +1,5 @@
 # MR_2026
-Some helpful code for the Mobile Robot. Particularly, communicating between the ESP32 and the Jetson Nano
+Some helpful code for the Mobile Robot. Particularly, communicating between the ESP32 and the Jetson Nano vis USB serial.
 
 ## 1 Common Issues (and fixes) for Jetson and ESP32 Comms
 1. Permission denied: Try `sudo usermod -a -G dialout $USER`
